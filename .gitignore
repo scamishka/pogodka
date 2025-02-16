@@ -1,0 +1,121 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+test/
+ios/
+
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Игнорировать файлы, связанные с IDE
+.idea/
+*.iml
+*.swp
+*.swo
+.vscode/
+
+# Игнорировать файлы, связанные с Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.fvm/
+
+# Игнорировать файлы, связанные с операционной системой
+.DS_Store
+Thumbs.db
+
+# Игнорировать файлы, связанные с Android
+/android/**/gradle/
+/android/**/.gradle
+/android/**/local.properties
+/android/**/GeneratedPluginRegistrant.java
+/android/**/android_key.properties
+
+# Игнорировать файлы, связанные с iOS
+/ios/**/.symlinks/
+/ios/**/Pods/
+/ios/**/Flutter/App.framework
+/ios/**/Flutter/Flutter.framework
+/ios/**/Flutter/Flutter.podspec
+/ios/**/Flutter/Generated.xcconfig
+/ios/**/Flutter/app.flx
+/ios/**/Flutter/app.zip
+/ios/**/Flutter/flutter_assets/
+/ios/**/Flutter/flutter_export_environment.sh
+/ios/**/ServiceDefinitions.json
+/ios/**/Runner.xcworkspace/
+/ios/**/Runner.xcodeproj/xcuserdata/
+/ios/**/Runner.xcodeproj/project.xcworkspace/
+/ios/**/Runner.xcodeproj/xcshareddata/
+
+# Игнорировать файлы, связанные с macOS
+/macos/**/Flutter/ephemeral/
+/macos/**/Flutter/Flutter.podspec
+/macos/**/Flutter/GeneratedPluginRegistrant.swift
+/macos/**/Flutter/FlutterMacOS.framework
+/macos/**/Flutter/FlutterMacOS.xcframework
+/macos/**/Flutter/FlutterMacOS.dSYM
+/macos/**/Flutter/FlutterMacOS.podspec
+/macos/**/Flutter/FlutterMacOS.xcconfig
+/macos/**/Flutter/FlutterMacOS.xcframework
+/macos/**/Flutter/FlutterMacOS.xcworkspace/
+/macos/**/Flutter/FlutterMacOS.xcodeproj/xcuserdata/
+/macos/**/Flutter/FlutterMacOS.xcodeproj/project.xcworkspace/
+/macos/**/Flutter/FlutterMacOS.xcodeproj/xcshareddata/
+
+# Игнорировать файлы, связанные с Web
+/web/**/.dart_tool/
+/web/**/build/
+
+# Игнорировать файлы, связанные с тестами
+/test/**/coverage/
+
+# Игнорировать файлы, связанные с пользовательскими настройками
+.flutter-settings
+.pubspec.lock
+/.metadata
+/analysis_options.yaml
+/android/
