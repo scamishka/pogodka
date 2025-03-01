@@ -12,14 +12,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'kak pogodka',
+      title: 'Два экрана с картой',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/',
+      home: const FirstScreen(),
       routes: {
-        '/': (context) => const FirstScreen(),
-        '/second': (context) => const SecondScreen(),
+        '/map': (context) => const SecondScreen(),
       },
     );
   }

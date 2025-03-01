@@ -32,7 +32,7 @@ class FirstScreen extends StatelessWidget {
                 iconSize: 40,
                 onPressed: () {
                   // Переход на второй экран
-                  Navigator.pushNamed(context, '/second');
+                  Navigator.pushNamed(context, '/map');
                 },
               ),
             ),
@@ -57,7 +57,7 @@ class FirstScreen extends StatelessWidget {
                   iconSize: 40,
                   onPressed: () {
                     // Переход на второй экран
-                    Navigator.pushNamed(context, '/second');
+                    Navigator.pushNamed(context, '/map');
                   },
                 ),
                 const SizedBox(width: 20), // Отступ между иконками
@@ -67,7 +67,7 @@ class FirstScreen extends StatelessWidget {
                   iconSize: 40,
                   onPressed: () {
                     // Переход на второй экран
-                    Navigator.pushNamed(context, '/second');
+                    Navigator.pushNamed(context, '/map');
                   },
                 ),
                 const SizedBox(width: 20), // Отступ между иконками
@@ -77,7 +77,7 @@ class FirstScreen extends StatelessWidget {
                   iconSize: 40,
                   onPressed: () {
                     // Переход на второй экран
-                    Navigator.pushNamed(context, '/second');
+                    Navigator.pushNamed(context, '/map');
                   },
                 ),
               ],
