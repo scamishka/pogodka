@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'screens/first_screen.dart';
-import 'screens/second_screen.dart';
+import 'screens/first_screen.dart'; // Первый экран
+import 'screens/second_screen.dart'; // Второй экран
+import 'screens/camera_screen.dart'; // Экран с камерой
 
 void main() {
   runApp(const MyApp());
@@ -12,14 +13,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'kak pogodka',
+      title: 'Приложение pogodka',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/',
+      home: const FirstScreen(), // Первый экран как стартовый
       routes: {
-        '/': (context) => const FirstScreen(),
-        '/second': (context) => const SecondScreen(),
+        '/map': (context) => const SecondScreen(), // Маршрут для второго экрана
+        '/camera': (context) => const CameraScreen(), // Маршрут для экрана с камерой
       },
     );
   }
